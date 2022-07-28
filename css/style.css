@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Syncopate&display=swap');
+
+body {
+    font-family: 'Kodchasan';
+}
+
+
+
+.nav-items {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.hero-head {
+    max-width: 582px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+}
+.hero-p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.hero-head, .hero-p {
+    color: #464547;
+}
+.btn {
+    --bs-btn-border-radius: .0rem;
+    color: #ffff; 
+    background-color: #464547; 
+    font-weight: 500;
+    font-size: 16px; 
+}
+
+
+.summary-head {
+    /* What We Do. In A Nutshell. */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+.summary-p {
+    /* Our printing company and branding specialists produce the best work in: */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+.feat-cards {
+    margin-top: 60px;
+}
+.feat-title {
+    /* Brand Management */
+    margin-top: 46px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+
+.about-img {
+    max-height: 520px;
+    margin-top: 69px;
+}
+.company {
+    margin-top: 130px;
+}
+.company-head {
+    /* Who We Are. */
+    height: 31px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+.company-p {
+    /* Lisakhanya Printing is a black-owned company with a Level 1 BEE rating. We are a full service visual communication company. We specialise in premium quality litho printing, digital printing, web printing and graphic design. We are focused on the printing needs of the government, the corporate and commercial section, as well as the general public. Our years of experience has enabled us to provide the best possible printing solution where attention is given to quality and detail, resulting in satisfied clients with whom we have lasting business relationships. */
+    width: 494px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    color: #000000;
+}
+.company-head-2 {
+    /* Our Vision & Mission. */
+    height: 34px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+.company-p-2 {
+    /* Our aim is to offer the highest quality possible, on time, every time, at a market related price. We discover how we can help build your business and become an integral partner with the necessary marketing knowledge to help you beat your competition. We aim to keep at the cutting edge of technology and attain our mission through continuous staff training and personal motivation. Our mission is to treat every client with the same care, respect and dignity as we ourselves would like to be treated. We, at Lisakhanya, guarantee our quality and will stop at nothing to achieve complete customer satisfaction. */
+    width: 397px;
+    left: 86px;
+    top: 1884px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    color: #FFFFFF;
+}
+
+
+.values-head, .products-head {
+    /* Our Values. */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+.values-p {
+    /* The foundation of our business is integrity and honesty. We take pride in the client relationships that have developed resulting in interdependency and mutual growth. */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+/* .values-img {
+    height: 64px;
+    width: 64px;
+} */
+
+
+
+.card-img-top {
+    height: 277px;
+    width: 277px;
+}
+.products-p {
+    /* Customizable product range: */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+.products-d {
+    /* Exhibitions */
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 50px;
+    text-align: center;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+
+    color: #464547;
+}
+.product-head {
+    /* Roll Up Banner */
+    height: 21px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+.product-p {
+    /* PVC - Econo & Executive */
+    height: 18px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.card-group {
+    position: relative;
+}
+.cards-1, .cards-2, .cards-3 {
+    display: none;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
