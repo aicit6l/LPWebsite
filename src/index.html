@@ -11,7 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <!-- JS -->
-
+    <script src="../js/functions.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
 
 </head>
 <body>
@@ -19,12 +20,11 @@
 
     <!-- INTRO SECTION -->
     <header>
-        <div class="container-fluid p-0">
+        <div class="navigation container-fluid p-0">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img src="../assets/logo with background removed.png" alt="" width="50" height="50">
-                        <img src="../assets/ls6-cropped lisakhanya.png" alt="" width="184" height="52">
+                        <img src="../assets/logo.svg" alt="">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -32,16 +32,19 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active nav-items" aria-current="page" href="#">About</a>
+                                <a class="nav-link nav-items" style="margin-right: 3rem;" aria-current="page" href="#section-1">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav-items" href="#">Products</a>
+                                <a class="nav-link nav-items" style="margin-right: 3rem;" aria-current="page" href="#section-2">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav-items" href="#">Services</a>
+                                <a class="nav-link nav-items" style="margin-right: 3rem;" href="#section-3">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav-items btn btn-sm text-nowrap nav-link nav-btn-item" style="padding-left: 20px; padding-right: 20px;" href="#" role="button" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                                <a class="nav-link nav-items" style="margin-right: 3rem;" href="#">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-items btn cta-btn-nav btn-sm text-nowrap nav-link nav-btn-item" style="padding-left: 4rem; padding-right: 4rem; padding-top: 1rem; padding-bottom: 1rem; font-size: 1.9rem; line-height: 2.3rem; letter-spacing: 0.055rem; font-style: normal;" href="#" role="button" tabindex="-1" aria-disabled="true">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -50,16 +53,15 @@
         </div>
 
 
-        <div class="container text-start">
+        <div class="container text-start" style="padding-top: 10rem;">
             <div class="row">
                 <div class="col-md-7 col-sm-12">
                     <p class="hero-head">FROM DESIGN TO DELIVERY. 
                         WE FOCUS ON OUTCOME, NOT OUTPUT.</p>
-                    <p class="hero-p">We print according to your vision.</p>
-                    <a class="btn text-nowrap hero-btn" href="#" role="button" style="padding-right: 20px; padding-left: 20px;">Explore Services</a>
+                    <a class="btn cta-btn text-nowrap hero-btn" href="#section-3" role="button" style="padding-right: 4rem; padding-left: 4rem; padding-top: 1rem; padding-bottom: 1rem; margin-top: 2rem; font-size: 1.9rem; line-height: 2.3rem; letter-spacing: 0.055rem; font-style: normal;">Explore Services</a>
                 </div>
-                <div class="col-md-5 col-sm-12 h-25">
-                    <img src="../assets/heroppicturej.jpg" alt="LP">
+                <div class="col-md-5 col-sm-12">
+                    <img src="../assets/hero image.svg" style="height: 61.9rem;" alt="LP">
                 </div>
             </div>
         </div>
@@ -72,80 +74,52 @@
     <main>
 
         <!-- SUMMARY CARD -->
-        <section class="section-1 container-fluid" style="background-color: rgba(230, 230, 230, 0.4);">
+        <section id="section-1" class="section-1 container-fluid">
             <div class="summary-card">
-                <div class="d-flex flex-row justify-content-center flex-wrap text-center">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="title">
-                                <p class="card-title summary-head">What We Do. In A Nutshell.</p>
-                            </div>
-                            <p class="card-text summary-p">
-                                Our printing company and branding specialists produce the best work in:
-                            </p>
-                            <div class="features d-flex flex-md-row flex-wrap justify-content-center mt-5">
-                                <div class="block">
-                                    <img src="../assets/icons/brand-image.png" alt="brand">
-                                    <p class="feat-title">Brand Management</p>
-                                </div>
-                                <div class="block">
-                                    <img src="../assets/icons/web-design.png" alt="graphic design">
-                                    <p class="feat-title">Graphic Design</p>
-                                </div>
-                                <div class="block">
-                                    <img src="../assets/icons/printer.png" alt="print">
-                                    <p class="feat-title">Print</p>
-                                </div>
-                                <div class="block">
-                                    <img src="../assets/icons/seo.png" alt="digital marketing">
-                                    <p class="feat-title">Digital Marketing</p>
-                                </div>
-                            </div>
+                <div class="justify-content-center flex-wrap text-center">
+                    <p class="summary-head">What We Do.</p>
+                    <p class="summary-p">
+                        Our printing company and branding specialists produce the best work in:
+                    </p>
+                    <div class="d-flex flex-md-row flex-wrap justify-content-center mt-5">
+                        <div class="block">
+                            <img src="../assets/brand icon.svg" alt="brand">
+                            <p class="feat-title">Brand Management</p>
+                        </div>
+                        <div class="block">
+                            <img src="../assets/graphic design icon.svg" alt="graphic design">
+                            <p class="feat-title">Graphic Design</p>
+                        </div>
+                        <div class="block">
+                            <img src="../assets/print icon.svg" alt="print">
+                            <p class="feat-title">Print</p>
+                        </div>
+                        <div class="block">
+                            <img src="../assets/digital marketing icon.svg" alt="digital marketing">
+                            <p class="feat-title">Digital Marketing</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
 
-
-        <!-- WHO WE ARE -->
-        <section class="section-2 container-fluid" style="background-color: rgba(230, 230, 230, 0.4);">
-            <div class=" container text-start">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="magazine">
-                            <img src="../assets/magazine longer.png" alt="magazine" class="about-img">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="company">
-                            <p class="company-head">Who We Are.</p>
-                            <p class="company-p">Lisakhanya Printing is a black-owned company with a Level 1 BEE rating. We are a full service visual communication company. </p>
-                            <p class="company-p">We specialise in premium quality litho printing, digital printing, web printing and graphic design. We are focused on the printing needs of the government, the corporate and commercial section, as well as the general public.</p>
-                            <p class="company-p">Our years of experience has enabled us to provide the best possible printing solution where attention is given to quality and detail, resulting in satisfied clients with whom we have lasting business relationships.</p>
-                        </div>
+                    <div class="company">
+                        <p class="company-head">Who We Are.</p>
+                        <p class="company-p">Lisakhanya Printing is a black-owned company with a Level 1 BEE rating. We are a full service visual communication company. </p>
+                        <p class="company-p">We specialise in premium quality litho printing, digital printing, web printing and graphic design. We are focused on the printing needs of the government, the corporate and commercial section, as well as the general public.</p>
+                        <p class="company-p">Our years of experience has enabled us to provide the best possible printing solution where attention is given to quality and detail, resulting in satisfied clients with whom we have lasting business relationships.</p>
                     </div>
                 </div>
             </div>
-        </section>
 
-
-        <!-- OUR VISION & MISSION -->
-        <section class="section-3 container-fluid" style="background-color: rgba(230, 230, 230, 0.4);">
-            <div class="container text-start">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="company">
-                            <p class="company-head-2">Our Vision & Mission.</p>
-                            <p class="company-p-2">Our aim is to offer the highest quality possible, on time, every time, at a market related price.</p>
-                            <p class="company-p-2">We discover how we can help build your business and become an integral partner with the necessary marketing knowledge to help you beat your competition. We aim to keep at the cutting edge of technology and attain our mission through continuous staff training and personal motivation.</p>
-                            <p class="company-p-2">Our mission is to treat every client with the same care, respect and dignity as we ourselves would like to be treated. We, at Lisakhanya, guarantee our quality and will stop at nothing to achieve complete customer satisfaction.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="magazine">
-                            <img src="../assets/ls7 longer.png" alt="magazine" class="about-img">
-                        </div>
+                    <div class="company">
+                        <p class="company-head">Our Vision & Mission.</p>
+                        <p class="company-p">Our aim is to offer the highest quality possible, on time, every time, at a market related price.</p>
+                        <p class="company-p">We discover how we can help build your business and become an integral partner with the necessary marketing knowledge to help you beat your competition. We aim to keep at the cutting edge of technology and attain our mission through continuous staff training and personal motivation.</p>
+                        <p class="company-p">Our mission is to treat every client with the same care, respect and dignity as we ourselves would like to be treated. We, at Lisakhanya, guarantee our quality and will stop at nothing to achieve complete customer satisfaction.</p>
                     </div>
                 </div>
             </div>
@@ -153,49 +127,181 @@
 
 
         <!-- OUR VALUES -->
-        <section class="section-4" style="background-color: rgba(230, 230, 230, 0.4);">
+        <section class="section-4" style="background-color: #f5f5f5;">
             <p class="values-head text-center">Our Values.</p>
-            <p class="values-p">The foundation of our business is integrity and honesty.</p>
-            <p class="values-p">We take pride in the client relationships that have developed resulting in interdependency and mutual growth.</p>
-            <div class="d-flex flex-row justify-content-center flex-wrap text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="features d-flex flex-md-row flex-wrap justify-content-center mt-5">
-                            <div class="block">
-                                <img src="../assets/icons/handshake.png" alt="integrity">
-                                <p class="feat-title">Integrity</p>
-                            </div>
-                        </div>
+            <p class="values-p text-center">The foundation of our business is integrity and honesty. </br> We take pride in the client relationships that have developed resulting in interdependency and mutual growth.</p>
+            <div class="values d-flex flex-row justify-content-center flex-wrap text-center">
+                <div class="features d-flex flex-md-row flex-wrap justify-content-center mt-5">
+                    <div class="f-block">
+                        <img src="../assets/honesty value.svg" alt="integrity">
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-body">
-                        <div class="features d-flex flex-md-row flex-wrap justify-content-center mt-5">
-                            <div class="block">
-                                <img src="../assets/icons/honest.png" alt="honesty">
-                                <p class="feat-title">Honesty</p>
-                            </div>
-                        </div>
+                <div class="features d-flex flex-md-row flex-wrap justify-content-center mt-5">
+                    <div class="f-block">
+                        <img src="../assets/integrity value.svg" alt="honesty">
                     </div>
-                </div>              
+                </div>
+                <div class="features d-flex flex-md-row flex-wrap justify-content-center mt-5">
+                    <div class="f-block">
+                        <img src="../assets/mutual growth value.svg" alt="mutual growth">
+                    </div>
+                </div>
+                <div class="features d-flex flex-md-row flex-wrap justify-content-center mt-5">
+                    <div class="f-block">
+                        <img src="../assets/interdependency value.svg" alt="interdependency">
+                    </div>
+                </div>
             </div>
-            <div class="d-flex flex-row justify-content-center flex-wrap text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="features d-flex flex-md-row flex-wrap justify-content-center mt-5">
-                            <div class="block">
-                                <img src="../assets/icons/dependencies.png" alt="interdependency">
-                                <p class="feat-title">Interdependency</p>
-                            </div>
+        </section>
+
+
+        <!-- OUR PORTFOLIO -->
+        <section id="section-2" class="section-5" style="background-color: #1E1E1E;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="portfolio">
+                            <img src="../assets/PURENELLE.svg" alt="Purenelle's exhibition stands." class="portfolio-img">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio-work">
+                            <p class="portfolio-category">LITHO PRINTS</p>
+                            <p class="portfolio-head">Purenelle</p>
+                            <p class="portfolio-p">Using Litho Printing, we produced prints for Purenelle's exhibition stand.</p>
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-body">
-                        <div class="features d-flex flex-md-row flex-wrap justify-content-center mt-5">
-                            <div class="block">
-                                <img src="../assets/icons/growth.png" alt="mutual growth">
-                                <p class="feat-title">Mutual Growth</p>
+            </div>
+        </section>
+
+        <section class="section-6" style="background-color: #1E1E1E;">
+            <div class="container-fluid" style="padding-right: 20rem; display: inline-block;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="portfolio-work">
+                            <p class="portfolio-category">DIGITAL PRINTS</p>
+                            <p class="portfolio-head">HangAwt</p>
+                            <p class="portfolio-p">We proudly played our part in HangAwt's creative vision for its menues being delivered through Digital Printing.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio">
+                            <img src="../assets/HANGAWT.svg" alt="HangAwt menu" class="portfolio-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-7" style="background-color: #1E1E1E;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="portfolio">
+                            <img src="../assets/MAKWANDE CHEMICALS.svg" alt="Makwande Chemical's banner" class="portfolio-img">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio-work">
+                            <p class="portfolio-category">LITHO PRINTS</p>
+                            <p class="portfolio-head">Makwande Chemicals</p>
+                            <p class="portfolio-p">Makwande Chemicals needed banners for their company, and we delivered. This project falls within our Litho Printing services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SERVICES -->
+        <section id="section-3" class="section-8" style="background-color: #ffff;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="service-example service-1">
+                            <img src="../assets/dp cards.svg" alt="Business Cards" class="service-img">
+                            <img src="../assets/dp menu.svg" alt="Menues" class="service-img">
+                            <img src="../assets/dp flyer.svg" alt="Flyers" class="service-img">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="services">
+                            <p class="service-head">DIGITAL PRINTING</p>
+                            <p class="service-p">Instantly print as little as one copy or multiples of a hundred! </p> 
+                            <p class="service-sub-p">From 1 to the traditional 4 colours. With artwork sent directly to a digital printer, it lowers costs and produces high-quality, fast prints. </p>
+                            <p class="service-sub-p">Includes:</p>
+                            <p>
+                                <ul class="sp-li" style="list-style: none;">
+                                    <li>BUSINESS CARDS</li>
+                                    <hr>
+                                    <li>MENUES</li>
+                                    <hr>
+                                    <li>FLYERS</li>
+                                    <hr>
+                                    <li>CERTIFICATES</li>
+                                    <hr>
+                                </ul>
+                            </p>
+                            <button class="paginate leftS border-0" style="background-color: transparent;"><img src="../assets/arrow left.svg"/></button>
+                            <button class="paginate rightS border-0" style="background-color: transparent;"><img src="../assets/arrow right.svg"/></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="service-example service-2">
+                            <img src="../assets/lp magazines.svg" alt="Coffee Table Books" class="service2-img">
+                            <img src="../assets/lp notepad.svg" alt="Note Pads" class="service2-img">
+                            <img src="../assets/lp envelope.svg" alt="Folders" class="service2-img">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="services">
+                            <p class="service-head">LITHO PRINTING</p>
+                            <p class="service-p">Conventional printing  done well.</p> 
+                            <p class="service-sub-p">Litho Printing is cost effective for large runs. The price per unit goes down as the quantity goes up.</p>
+                            <p class="service-sub-p">Includes:</p>
+                            <p>
+                                <ul class="sp-li" style="list-style: none;">
+                                    <li>COFFEE TABLE BOOKS</li>
+                                    <hr>
+                                    <li>NOTE PADS</li>
+                                    <hr>
+                                    <li>FOLDERS</li>
+                                    <hr>
+                                    <li>MAGAZINES</li>
+                                    <hr>
+                                </ul>
+                            </p>
+                            <button class="paginate leftS2 border-0" style="background-color: transparent;"><img src="../assets/arrow left.svg"/></button>
+                            <button class="paginate rightS2 border-0" style="background-color: transparent;"><img src="../assets/arrow right.svg"/></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="service-example service-3">
+                                <img src="../assets/fp screen.svg" alt="Embroidery Printing" class="service3-img">
+                                <img src="../assets/fp embroidery.svg" alt="Screen Printing" class="service3-img">
+                                <img src="../assets/fp canvas.svg" alt="Canvas Printing" class="service3-img">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="services">
+                                <p class="service-head">FABRIC PRINTING</p>
+                                <p class="service-sub-p">Includes:</p>
+                                <p>
+                                    <ul class="sp-li" style="list-style: none;">
+                                        <li>EMBROIDERY PRINTING</li>
+                                        <hr>
+                                        <li>SCREEN PRINTING</li>
+                                        <hr>
+                                        <li>CANVAS PRINTING</li>
+                                        <hr>
+                                    </ul>
+                                </p>
+                                <button class="paginate leftS3 border-0" style="background-color: transparent;"><img src="../assets/arrow left.svg"/></button>
+                                <button class="paginate rightS3 border-0" style="background-color: transparent;"><img src="../assets/arrow right.svg"/></button>
                             </div>
                         </div>
                     </div>
@@ -204,46 +310,265 @@
         </section>
 
 
-        <!-- OUR PRODUCTS -->
-        <section class="section-5">
-            
+        <!-- PRODUCTS -->
+        <section id="section-4" class="section-9" style="background-color: #ffff;">
+            <div class="container-fluid" style="padding-right: 20rem; display: inline-block;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="products">
+                            <p class="product-head">BANNERS</p>
+                            <p class="product-sub-p">Include:</p>
+                            <p>
+                                <ul class="sp-li" style="list-style: none;">
+                                    <li>TELESCOPIC FLAG BANNERS</li>
+                                    <hr>
+                                    <li>ROLL UP BANNERS</li>
+                                    <hr>
+                                    <li>X-BANNERS</li>
+                                    <hr>
+                                    <li>POP UP BANNERS</li>
+                                    <hr>
+                                    <li>BANNER WALL</li>
+                                    <hr>
+                                </ul>
+                            </p>
+                            <button class="paginate leftP border-0" style="background-color: transparent;"><img src="../assets/arrow left.svg"/></button>
+                            <button class="paginate rightP border-0" style="background-color: transparent;"><img src="../assets/arrow right.svg"/></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="product-example product-1">
+                            <img src="../assets/banners 1.svg" alt="Banner Wall" class="product-img">
+                            <img src="../assets/banners 2.svg" alt="Telescopic Flag Banners" class="product-img">
+                            <img src="../assets/banners 3.svg" alt="X-Banners" class="product-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="products">
+                            <p class="product-head">EXHBITION PRODUCTS</p>
+                            <p class="product-sub-p">Include:</p>
+                            <p>
+                                <ul class="sp-li" style="list-style: none;">
+                                    <li>CUSTOM EXHIBITION STANDS</li>
+                                    <hr>
+                                    <li>CUSTOM EXHIBITION COUNTERS</li>
+                                    <hr>
+                                    <li>EXHIBITION GAZEBOS</li>
+                                    <hr>
+                                </ul>
+                            </p>
+                            <button class="paginate leftP2 border-0" style="background-color: transparent;"><img src="../assets/arrow left.svg"/></button>
+                            <button class="paginate rightP2 border-0" style="background-color: transparent;"><img src="../assets/arrow right.svg"/></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="product-example product-2">
+                            <img src="../assets/exhibitions 1.svg" alt="Exhibition Stands" class="product2-img">
+                            <img src="../assets/exhibitions 2.svg" alt="Exhibition Counters" class="product2-img">
+                            <img src="../assets/exhibitions 3.svg" alt="Exhibition Gazebos" class="product2-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+
+        <!-- BROCHURE DOWNLOAD -->
+        <section id="section-5" class="section-10" style="background-color: #FBA51A">
+            <div class="container-fluid justify-content-between" style="display: inline-block;">
+                <div class="row bd-section">
+                    <div class="catalogue col-md-6">
+                        <p class="bd-p">
+                            Download our booklet showcasing our full catalogue.
+                        </p>
+                    </div>
+                    <div class="catalogue col-md-6">
+                        <a class="btn download-btn btn-sm text-nowrap" href="../assets/catalogue.pdf" download style="padding-left: 4rem; padding-right: 4rem; padding-top: 1rem; padding-bottom: 1rem; font-size: 1.9rem; line-height: 2.3rem; letter-spacing: 0.055rem; font-style: normal;" role="button" tabindex="-1" aria-disabled="true">Download</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONTACT US -->
+        <section id="section-6" class="section-11" style="background-color: #1E1E1E;">
+            <div class="container-fluid justify-content-center" style="display: inline-block;">
+                <div class="row contact">
+                    <div class="col-md-6 contact-1">
+                        <p class="contact-head">
+                            Contact Us.
+                        </p>
+                        <p class="contact-p">
+                            Want To Request Our Services? Send an email to: <u>lisakhanyaprinting@outlook.com</u>
+                        </p>
+                        <p class="contact-p">
+                            We'd love to hear from you!
+                        </p>
+                    </div>
+                    <div class="col-md-6 contact-1">
+                        <p class="contact-head">
+                            Need Immediate Help?
+                        </p>
+                        <p class="contact-p">
+                            Call <u>123-456-7890</u> <br><br>
+                            356 Iringa Street,<br> 
+                            Teanong Section,<br> 
+                            Tembisa, 1632
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="section-7" class="section-12 container-fluid">
+            <div class="d-flex flex-md-row flex-wrap justify-content-center mt-5 footer-section">
+                <div class="footer-content footer-logo">
+                    <img src="../assets/logo.svg" alt="">
+                </div>
+                <div class="footer-content footer-website">
+                    <p class="footer-head">Website</p>
+                    <ul class="footer-p" style="list-style: none;">
+                        <li>About Us</li>
+                        <li>Our Portfolio</li>
+                        <li>OurServices</li>
+                        <li>Our Products</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="footer-content footer-resources">
+                    <p class="footer-head">Resources</p>
+                    <ul class="footer-p" style="list-style: none;">
+                        <li>Icons</li>
+                    </ul>
+                </div>
+                <div class="footer-content footer-btn">
+                    <a class="btn cta-btn btn-sm text-nowrap" style="padding-left: 4rem; padding-right: 4rem; padding-top: 1rem; padding-bottom: 1rem; font-size: 1.9rem; line-height: 2.3rem; letter-spacing: 0.055rem; font-style: normal;" href="#" role="button" tabindex="-1" aria-disabled="true">Contact</a>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex flex-md-row flex-wrap justify-content-between mt-3">
+                <div class="footer-content">
+                    <p class="footer-copywrite">© Lisakhanya Printing Inc. 2022.</p>
+                </div>
+                <div class="footer-content">
+                    <p class="footer-p">Follow us: </p>
+                </div>
+            </div>
+        </section>
+
     </main>
 
-
-    <!-- FOOTER SECTION -->
-    <footer>
-
-    </footer>
-
-    <!-- JS: for images -->
+    <!-- JS -->
     <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
+        // Digital Printing Slideshow
+        const imgs = document.querySelectorAll(".service-1 img");
+        const imgs2 = document.querySelectorAll(".service-2 img");
+        const imgs3 = document.querySelectorAll(".service-3 img");
+        const imgp = document.querySelectorAll(".product-1 img");
+        const imgp2 = document.querySelectorAll(".product-2 img");
+        const leftArrowS = document.querySelector(".paginate.leftS");
+        const leftArrowS2 = document.querySelector(".paginate.leftS2");
+        const leftArrowS3 = document.querySelector(".paginate.leftS3");
+        const leftArrowP = document.querySelector(".paginate.leftP");
+        const leftArrowP2 = document.querySelector(".paginate.leftP2");
+        const rightArrowS = document.querySelector(".paginate.rightS");
+        const rightArrowS2 = document.querySelector(".paginate.rightS2");
+        const rightArrowS3 = document.querySelector(".paginate.rightS3");
+        const rightArrowP = document.querySelector(".paginate.rightP");
+        const rightArrowP2 = document.querySelector(".paginate.rightP2");
 
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
+        let currentIndex = 0;
+        let time = 5000; // default time for auto slideshow
 
-        function showSlides(n) {
-            let i;
-            let slides = document.getElementsByClassName("cards-1", "cards-2", "cards-3");
-
-            if (n > slides.length) {
-                slideIndex = 1
+        const defClass = (startPos, index) => {
+            for (let i = startPos; i < imgs.length; i++) {
+                imgs[i].style.display = "none";
             }
-            
-            if (n < 1) {
-                slideIndex = slides.length
-            }
+            imgs[index].style.display = "block";
 
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
+            for (let i = startPos; i < imgs2.length; i++) {
+                imgs2[i].style.display = "none";
             }
+            imgs2[index].style.display = "block";
 
-            slides[slideIndex-1].style.display = "inline-block";
-        }
+            for (let i = startPos; i < imgs3.length; i++) {
+                imgs3[i].style.display = "none";
+            }
+            imgs3[index].style.display = "block";
+
+            for (let i = startPos; i < imgp.length; i++) {
+                imgp[i].style.display = "none";
+            }
+            imgp[index].style.display = "block";
+
+            for (let i = startPos; i < imgp2.length; i++) {
+                imgp2[i].style.display = "none";
+            }
+            imgp2[index].style.display = "block";
+        };
+
+            defClass(1, 0);
+
+            leftArrowS.addEventListener("click", function(){
+                currentIndex <= 0 ? currentIndex = imgs.length-1 : currentIndex--;
+                defClass(0, currentIndex);
+            });
+            leftArrowS2.addEventListener("click", function(){
+                currentIndex <= 0 ? currentIndex = imgs2.length-1 : currentIndex--;
+                defClass(0, currentIndex);
+            });
+            leftArrowS3.addEventListener("click", function(){
+                currentIndex <= 0 ? currentIndex = imgs3.length-1 : currentIndex--;
+                defClass(0, currentIndex);
+            });
+            leftArrowP.addEventListener("click", function(){
+                currentIndex <= 0 ? currentIndex = imgp.length-1 : currentIndex--;
+                defClass(0, currentIndex);
+            });
+            leftArrowP2.addEventListener("click", function(){
+                currentIndex <= 0 ? currentIndex = imgp2.length-1 : currentIndex--;
+                defClass(0, currentIndex);
+            });
+
+            rightArrowS.addEventListener("click", function(){
+                currentIndex >= imgs.length-1 ? currentIndex = 0 : currentIndex++;
+                defClass(0, currentIndex);
+            });
+            rightArrowS2.addEventListener("click", function(){
+                currentIndex >= imgs2.length-1 ? currentIndex = 0 : currentIndex++;
+                defClass(0, currentIndex);
+            });
+            rightArrowS3.addEventListener("click", function(){
+                currentIndex >= imgs3.length-1 ? currentIndex = 0 : currentIndex++;
+                defClass(0, currentIndex);
+            });
+            rightArrowP.addEventListener("click", function(){
+                currentIndex >= imgp.length-1 ? currentIndex = 0 : currentIndex++;
+                defClass(0, currentIndex);
+            });
+            rightArrowP2.addEventListener("click", function(){
+                currentIndex >= imgp2.length-1 ? currentIndex = 0 : currentIndex++;
+                defClass(0, currentIndex);
+            });
+
+            const startAutoSlide = () => {
+                setInterval(() => {
+                    currentIndex >= imgs.length-1 ? currentIndex = 0 : currentIndex++;
+                    currentIndex >= imgs2.length-1 ? currentIndex = 0 : currentIndex++;
+                    currentIndex >= imgs3.length-1 ? currentIndex = 0 : currentIndex++;
+                    currentIndex >= imgp.length-1 ? currentIndex = 0 : currentIndex++;
+                    currentIndex >= imgp2.length-1 ? currentIndex = 0 : currentIndex++;
+                    defClass(0, currentIndex);
+                }, time);
+            };
+
+        startAutoSlide(); 
     </script>
+
+
     <!-- BOOTSTRAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
