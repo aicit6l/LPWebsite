@@ -26,12 +26,14 @@ html::-webkit-scrollbar-thumb {
 }
 
 
+
 /* HERO SECTION */
 .navigation {
     position: fixed;
     background-color: #ffff;
 }
 .nav-items {
+    margin-right: 3rem;
     /* Desktop/Menu Tab Text */
     font-style: normal;
     font-weight: 600;
@@ -40,20 +42,19 @@ html::-webkit-scrollbar-thumb {
     letter-spacing: 0.055em;
 }
 
+.hero {
+    padding-top: 10rem;
+}
 
 /* FROM DESIGN TO DELIVERY, WE FOCUS ON OUTCOME, NOT OUTPUT. */
 .hero-head {
-    width: 60rem;
     /* Desktop/Hero Heading */
     font-style: normal;
     font-weight: 600;
-    font-size: 5rem;
+    font-size: 4.5rem;
     line-height: 8rem;
     letter-spacing: 0.065rem;
     margin-top: 12rem;
-}
-
-.hero-head {
     color: #464547;
 }
 
@@ -126,6 +127,9 @@ html::-webkit-scrollbar-thumb {
 
 /* SECTION 2 & 3 */
 
+.section-2 {
+    width: auto;
+}
 .company {
     margin: 6rem;
 }
@@ -162,7 +166,7 @@ html::-webkit-scrollbar-thumb {
     /* Desktop/Section- & Sub-Heading */
     font-style: normal;
     font-weight: 400;
-    font-size: 3.8rem;
+    font-size: 4.8rem;
     line-height: 7.2rem;
     text-transform: capitalize;
 }
@@ -188,58 +192,78 @@ html::-webkit-scrollbar-thumb {
 /* SECTION 5-7 */
 
 .portfolio {
-    margin: 10rem;
+    margin-left: 4rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+.portfolio img {
+    width: 30rem;
+}
+.portfolio-p {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.portfolio-head {
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+    padding-top: 6rem;
+    /* Desktop/Section- & Sub-Heading */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+    text-transform: capitalize;
+
+    color: #ffff;
 }
 
 /* LITHO PRINTS */
 .portfolio-category {
     /* Desktop/Caption */
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.2rem;
     line-height: 2rem;
     letter-spacing: 0.3rem;
-    color: #808080;
+    color: #FBA51A;
 }
 
-.portfolio-work {
-    padding-left: 15rem;
-    padding-top: 25rem;
-}
-
-.portfolio-head, .bd-p {
+.portfolio-title {
+    width: 30rem;
 /* Desktop/Caption P Large Hovered */
     font-style: normal;
-    font-weight: 800;
-    font-size: 2.8rem;
+    font-weight: 300;
+    font-size: 3.4rem;
     line-height: 3rem;
     letter-spacing: 0.35rem;
-    color: #FFFFFF;
-}
 
-.portfolio-p {
-    margin-top: 3rem;
-    width: 48.2rem;
-    /* Desktop/Body P */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 3rem;
-    letter-spacing: -0.015rem;
-    color: #FFFFFF;
+    color: #ffff;
 }
 
 
 /* SECTION 8 */
 
+.sp-head {
+    margin-top: 5rem;
+    /* Desktop/Section- & Sub-Heading */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+    text-transform: capitalize;
+}
+
 .service-example {
     width: 66.1;
-    margin: 10rem;
+    margin: 5rem;
 }
 
 .product-example {
     margin-right: 15rem;
-    margin-top: 10rem;
+    margin-top: 2rem;
     margin-bottom: 10rem;
 }
 
@@ -248,7 +272,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .services, .products {
-    margin: 10rem;
+    margin: 5rem;
 }
 
 /* DIGITAL printing */
@@ -286,9 +310,8 @@ text-transform: uppercase;
 
 .paginate {
     margin-top: 6rem;
-    width: 1rem;
 }
-.right {
+.r {
     margin-left: 3rem;
 }
 
@@ -298,6 +321,17 @@ text-transform: uppercase;
     margin-bottom: 8rem;
     padding-left: 10rem;
     padding-bottom: 0rem;
+}
+
+.bd-p {
+    /* Desktop/Caption P Large Hovered */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 3rem;
+    letter-spacing: 0.35rem;
+
+    color: #ffff;
 }
 
 .download-btn {
@@ -314,7 +348,7 @@ text-transform: uppercase;
     color: #FBA51A;
     /* Desktop/Section- & Sub-Heading */
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 4.8rem;
     line-height: 7.2rem;
     text-transform: capitalize;
@@ -328,10 +362,50 @@ text-transform: uppercase;
 u {
     color: #FBA51A;
 }
+.fullstop {
+    text-decoration: none;
+    color: #FBA51A;
+    font-size: 6.8rem;
+    margin-left: 1.5rem;
+}
+.fullstop-white {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 6.8rem;
+    margin-left: 1.5rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .footer-content {
     margin-top: 5rem;
     margin-bottom: 5rem;
     margin-right: 8rem;
     margin-left: 8rem;
+}
+
+.footer-head {
+    /* Desktop/Footer Heading 6 */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #1E1E1E;
+}
+
+.footer-p {
+    /* Desktop/Body P Small */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+
+.footer-copywrite {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
 }

@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: .4rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #ffff;
+    border-radius: .3rem;
+}
+
+
+[class*="col-"] {
+    width: 100%;
+}
+
+
+
+/* HERO SECTION */
+.nav-items {
+    /* Desktop/Menu Tab Text */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.055em;
+}
+
+
+.hero {
+    padding-top: 3rem;
+}
+.hero-img img {
+    height: 32.9rem;
+}
+
+.col-md-7, .col-md-5 {
+    width: 50%;
+}
+/* FROM DESIGN TO DELIVERY, WE FOCUS ON OUTCOME, NOT OUTPUT. */
+.hero-head {
+    /* Desktop/Hero Heading */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 0.045rem;
+    margin-top: 8rem;
+}
+
+.cta-btn, .cta-btn-nav {
+    --bs-btn-border-size: 2rem;
+    color: #FBA51A; 
+    --bs-btn-border-color: #FBA51A;
+    font-weight: 500;
+    font-size: 1rem; 
+}
+
+
+.translate-middle {
+    transform: translate(-110%,-120%)!important;
+}
+
+
+/* SECTION 1 */
+
+.section-1 {
+    background-image: url("../assets/offers\ bg.svg");
+    width: 100%;
+    color: #ffff;
+}
+
+.summary-card {
+    align-content: center;
+}
+
+/* What We do. */
+.summary-head {
+    /* Desktop/Section- & Sub-Heading */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+    text-transform: capitalize;
+
+    padding-top: 10rem;
+}
+
+/* Our printing company and branding specialists produce the best work in: */
+.summary-p {
+    /* Desktop/Body P Large */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 5rem;
+
+}
+
+.block {
+    margin-top: 6rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 3rem;
+}
+
+.feat-title {
+    /* Desktop/Body Heading */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 3.6rem;
+    letter-spacing: 0.125rem;
+
+    margin-top: 2rem;
+}
+
+
+/* SECTION 2 & 3 */
+
+.company {
+    margin: 6rem;
+}
+
+/* Who We Are. */
+.company-head {
+    /* Desktop/Section- & Sub-Heading */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+    text-transform: capitalize;
+}
+
+/* Lisakhanya Printing is a black-owned company with a Level 1 BEE rating. We are a full service visual communication company. We specialise in premium quality litho printing, digital printing, web printing and graphic design. We are focused on the printing needs of the government, the corporate and commercial section, as well as the general public. Our years of experience has enabled us to provide the best possible printing solution where attention is given to quality and detail, resulting in satisfied clients with whom we have lasting business relationships. */
+.company-p {
+    /* Desktop/Body P */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    letter-spacing: -0.015rem;
+
+    width: 115rem;
+    padding-top: 2rem;
+}
+
+
+/* SECTION 4 */
+
+/* Our Values. */
+.values-head {
+    padding-top: 4rem;
+    /* Desktop/Section- & Sub-Heading */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+    text-transform: capitalize;
+}
+
+/* The foundation of our business is integrity and honesty. We take pride in the client relationships that have developed resulting in interdependency and mutual growth. */
+.values-p {
+    /* Desktop/Body P */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    letter-spacing: -0.015rem;
+}
+
+.f-block {
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 10rem;
+}
+
+
+/* SECTION 5-7 */
+
+.portfolio {
+    margin-left: 4rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+.portfolio img {
+    width: 30rem;
+}
+.portfolio-p {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.portfolio-head {
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+    padding-top: 6rem;
+    /* Desktop/Section- & Sub-Heading */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+    text-transform: capitalize;
+
+    color: #ffff;
+}
+
+/* LITHO PRINTS */
+.portfolio-category {
+    /* Desktop/Caption */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: 0.3rem;
+    color: #FBA51A;
+}
+
+.portfolio-title {
+    width: 30rem;
+/* Desktop/Caption P Large Hovered */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.4rem;
+    line-height: 3rem;
+    letter-spacing: 0.35rem;
+
+    color: #ffff;
+}
+
+
+/* SECTION 8 */
+
+.sp-head {
+    margin-top: 5rem;
+    /* Desktop/Section- & Sub-Heading */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+    text-transform: capitalize;
+}
+
+.service-example {
+    width: 66.1;
+    margin: 5rem;
+}
+
+.product-example {
+    margin-right: 15rem;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+
+.service-img, .service2-img, .service3-img, .product-img, .product2-img {
+    max-height: 50.1rem;
+}
+
+.services, .products {
+    margin: 10rem;
+}
+
+/* DIGITAL printing */
+.service-head, .product-head {
+/* Desktop/Caption P Large Hovered */
+font-style: normal;
+font-weight: 800;
+font-size: 2.6rem;
+line-height: 3rem;
+letter-spacing: 0.35rem;
+text-transform: uppercase;
+}
+
+/* Instantly print as little as one copy or multiples of a hundred! From 1 to the traditional 4 colours. With artwork sent directly to a digital printer, it lowers costs and produces high-quality, fast prints. Includes: */
+.service-p, .service-sub-p, .product-sub-p, .contact-p {
+    margin-top: 2rem;
+    /* Desktop/Body P */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    letter-spacing: -0.015rem;
+}
+
+/* MENUS */
+.sp-li {
+    margin-top: 3rem;
+    /* Desktop/Caption */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: 0.3rem;
+}
+
+.paginate {
+    margin-top: 6rem;
+    width: 1rem;
+}
+.right {
+    margin-left: 3rem;
+}
+
+/* CATALOGUE DOWNLOAD */
+.bd-section, .contact {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    padding-left: 10rem;
+    padding-bottom: 0rem;
+}
+
+.bd-p {
+    /* Desktop/Caption P Large Hovered */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 3rem;
+    letter-spacing: 0.35rem;
+
+    color: #ffff;
+}
+
+.download-btn {
+    /* --bs-btn-border-radius: .8rem; */
+    --bs-btn-border-size: 2rem;
+    color: #ffff; 
+    --bs-btn-border-color: #ffff;
+    font-weight: 700;
+    font-size: 1.6rem; 
+    margin-left: 30rem;
+}
+
+.contact-head  {
+    color: #FBA51A;
+    /* Desktop/Section- & Sub-Heading */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+    text-transform: capitalize;
+}
+
+.contact-p {
+    width: 39.4rem;
+    color: #FFFFFF;
+}
+
+u {
+    color: #FBA51A;
+}
+.fullstop {
+    text-decoration: none;
+    color: #FBA51A;
+    font-size: 2.8rem;
+    margin-left: 1.5rem;
+}
+.fullstop-white {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 2.8rem;
+    margin-left: 1.5rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-content {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 8rem;
+    margin-left: 8rem;
+}
+
+.footer-head {
+    /* Desktop/Footer Heading 6 */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #1E1E1E;
+}
+
+.footer-p {
+    /* Desktop/Body P Small */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+
+.footer-copywrite {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
